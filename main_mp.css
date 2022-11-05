@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color:#6D758D;
+}
+
+p {
+    line-height: 27px;
+}
+
+.wrapper {
+    width: 1296px;
+    margin: 0 auto;
+}
+.header {
+    height: 74px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.first__logotype {
+    margin-top: 25px;
+}
+
+.first__logotype,
+.first__nav {
+    float: left;
+}
+
+.first__nav {
+    margin-top: 28px;
+}
+
+.first__login {
+    float: right;
+    margin-top: 18px;
+}
+
+.first__login a {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.first__login .button {
+    margin-top: 0;
+    color: #fff;
+    margin-right: 0;
+}
+
+.first__logotype {
+    margin-right: 50px;
+}
+
+.first__nav ul {
+    list-style: none;
+}
+
+.first__nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.first__nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.link {
+    color: #040062;
+    text-decoration: none;
+    transition: all .2s;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.button {
+    background-color: #0013FF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    transition: background-color .2s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #000cad;
+}
+
+.button:active {
+    background-color: #000879;
+}
+
+.first__mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .header {
+        height: 128px;
+    }
+
+    .first__nav {
+        margin-top: 17px;
+        width: 100%;
+    }
+
+    .first__nav ul li {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper {
+        width: 290px;
+    }
+
+    .header {
+        height: 357px;
+    }
+
+    .first__logotype,
+    .first__nav,
+    .first__login {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .first__login .link,
+    .first__nav {
+        display: none;
+    }
+
+    .first__mobile {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .first__mobile ul {
+        list-style: none;
+    }
+
+    .first__login .button {
+        margin-top: 40px;
+    }
+
+    .first__mobile ul li {
+        margin-bottom: 10px;
+    }
+
+    .first__mobile ul li:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/* Заголовки */
+.text-1,.text-2,.text-3{
+    font-family: 'Abril Fatface', serif;  
+}
+
+.text-1{
+    font-size: 60px;
+    line-height: 81px;
+}
+
+.text-2{
+    font-size: 80px;
+    line-height: 108px;
+}
+
+.text-3{
+    font-size: 110px;
+    line-height: 148px;
+}
+
+h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h3 {
+    font-family:'Ubuntu',sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+/* Блок с задним фоном */
+
+.bg{
+    background-image: url(/images/bg.svg);
+}
+
+.first__content {
+    padding: 80px 310px;
+    color: #040062;
+    text-align: center;
+}
+
+/* Розовый блок */
+
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.pink_left{
+    background-image: url(/images/pink_block.svg);
+    width: 50%;
+    text-align: center;
+}
+
+.pink_left img{
+    margin: 70px 207px;
+}
+
+.pink_right{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.works__top {
+    width: 449px;
+    padding-bottom: 32px;
+}
+
+.works__top h2 {
+    color:#040062;
+}
+
+.works__bottom p {
+    margin-top: 40px;
+}
+
+.pink_left,.pink_right{
+    width: 50%;
+    float: left;
+}
+
+/* Зеленый блок */
+
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.green_right{
+    background-image: url(/images/green_block.svg);
+    width: 50%;
+    text-align: center;
+}
+
+.green_right img{
+    margin: 70px 207px;
+}
+
+.green_left{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.works__top {
+    width: 449px;
+    padding-bottom: 32px;
+}
+
+.works__top h2 {
+    color:#040062;
+}
+
+.works__bottom p {
+    margin-top: 40px;
+}
+
+.green_right,.green_left{
+    width: 50%;
+    float: right;
+}
+
+/*Второй розовый блок*/
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.pink_left{
+    background-image: url(/images/pink_block.svg);
+    width: 50%;
+    text-align: center;
+}
+
+.pink_left img{
+    margin: 70px 207px;
+}
+
+.pink_right{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.works__top {
+    width: 449px;
+    padding-bottom: 32px;
+}
+
+.works__top h2 {
+    color:#040062;
+}
+
+.works__bottom p {
+    margin-top: 40px;
+}
+
+.pink_left,.pink_right{
+    width: 50%;
+    float: left;
+}
+
+/*Второй зеленый блок*/
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.green_right{
+    background-image: url(/images/green_block.svg);
+    width: 50%;
+    text-align: center;
+}
+
+.green_right img{
+    margin: 70px 207px;
+}
+
+.green_left{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.works__top {
+    width: 449px;
+    padding-bottom: 32px;
+}
+
+.works__top h2 {
+    color:#040062;
+}
+
+.works__bottom p {
+    margin-top: 40px;
+}
+
+.green_right,.green_left{
+    width: 50%;
+    float: right;
+}
+
+/*Третий розовый блок*/
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.pink_left{
+    background-image: url(/images/pink_block.svg);
+    width: 50%;
+    text-align: center;
+}
+
+.pink_left img{
+    margin: 70px 207px;
+}
+
+.pink_right{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.works__top {
+    width: 449px;
+    padding-bottom: 32px;
+}
+
+.works__top h2 {
+    color:#040062;
+}
+
+.works__bottom p {
+    margin-top: 40px;
+}
+
+.pink_left,.pink_right{
+    width: 50%;
+    float: left;
+}
+
+/* Подвал */
+
+.last_logotype{
+    padding-right: 180px;
+}
+
+.last_logotype,.last_nav{
+    float: left;
+}
+.last_nav ul{
+    padding-right:120px ;
+    float: left;
+}
+.last_nav ul:last-of-type{
+    margin-left: 0;
+}
+
+.footer h3{
+    color: #040062;
+    margin-bottom: 20px;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+.footer ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    padding: 3px;
+}
+
+.copyrights{
+    float: right;
+}
+
+.copyrights a{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer ul li a:active {
+    color: #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+}
