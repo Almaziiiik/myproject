@@ -209,7 +209,7 @@ h3 {
 /* Блок с задним фоном */
 
 .bg{
-    background-image: url(/images/bg.svg);
+    background-image: url(images/bg.svg);
 }
 
 .first__content {
@@ -227,7 +227,7 @@ h3 {
 }
 
 .pink_left{
-    background-image: url(/images/pink_block.svg);
+    background-image: url(images/pink_block.svg);
     width: 50%;
     text-align: center;
 }
@@ -268,7 +268,7 @@ h3 {
 }
 
 .green_right{
-    background-image: url(/images/green_block.svg);
+    background-image: url(images/green_block.svg);
     width: 50%;
     text-align: center;
 }
@@ -308,7 +308,7 @@ h3 {
 }
 
 .pink_left{
-    background-image: url(/images/pink_block.svg);
+    background-image: url(images/pink_block.svg);
     width: 50%;
     text-align: center;
 }
@@ -348,7 +348,7 @@ h3 {
 }
 
 .green_right{
-    background-image: url(/images/green_block.svg);
+    background-image: url(images/green_block.svg);
     width: 50%;
     text-align: center;
 }
@@ -388,7 +388,7 @@ h3 {
 }
 
 .pink_left{
-    background-image: url(/images/pink_block.svg);
+    background-image: url(images/pink_block.svg);
     width: 50%;
     text-align: center;
 }
