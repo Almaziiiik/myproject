@@ -18,6 +18,7 @@ p {
 .wrapper {
     width: 1296px;
     margin: 0 auto;
+    position: relative;
 }
 .header {
     height: 74px;
@@ -210,12 +211,33 @@ h3 {
 
 .bg{
     background-image: url(../images/bg.svg);
+    height: 647px;
 }
 
 .first__content {
     padding: 80px 310px;
     color: #040062;
     text-align: center;
+}
+
+.group_2_1{
+    position: absolute;
+    left:0;
+    bottom: -20px;
+}
+
+.group_3{
+    position: absolute;
+    left: 50%;
+    margin-left: -253px;
+    
+    bottom: 90px;
+}
+
+.group_1_4{
+    position: absolute;
+    right:0;
+    bottom: -20px;
 }
 
 /* Розовый блок */
@@ -239,6 +261,13 @@ h3 {
 .pink_right{
     padding-left: 100px;
     padding-top: 170px;
+}
+
+ .group{
+    position: absolute;
+    left: 50%;
+    margin-left: -220px;
+    bottom: 0;
 }
 
 .works__top {
